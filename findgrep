@@ -1,0 +1,6 @@
+#!/usr/bin/perl
+use Cwd;
+use strict; 
+use warnings;
+my $curdir = cwd;
+system("find $curdir -exec grep -l $ARGV[0] {} \\\;");
