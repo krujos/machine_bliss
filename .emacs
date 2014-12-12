@@ -56,3 +56,4 @@
 
 (add-to-list 'auto-mode-alist '("\\.h$" . c++-mode))
 (message ".emacs loaded successfully.")
+(put 'upcase-region 'disabled nil)
