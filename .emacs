@@ -23,21 +23,6 @@
   ;; If you edit it by hand, you could mess it up, so be careful.
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
- '(c-basic-offset 4)
- '(c-cleanup-list (quote (brace-else-brace brace-elseif-brace brace-catch-brace one-liner-defun scope-operator compact-empty-funcall comment-close-slash)))
- '(c-default-style (quote ((c-mode . "c++") (java-mode . "java") (awk-mode . "awk") (other . "gnu"))))
- '(c-doc-comment-style (quote set-from-style))
- '(c-echo-syntactic-information-p t)
- '(c-electric-pound-behavior (quote (alignleft)))
- '(c-hanging-braces-alist (quote ((defun-open) (defun-close) (class-open) (class-close) (block-open) (block-close . c-snug-do-while) (statement-cont) (substatement-open after) (statement-case-open) (brace-list-open) (brace-list-close) (brace-entry-open) (extern-lang-open after) (namespace-open after) (module-open after) (composition-open after) (inexpr-class-open after) (inexpr-class-close before) (arglist-cont-nonempty))))
- '(c-ignore-auto-fill nil)
- '(c-indent-comment-alist (quote ((empty-line column . 2) (anchored-comment column . 0) (end-block space . 1) (cpp-end-block space . 2))))
- '(c-indent-comments-syntactically-p t)
- '(c-max-one-liner-length 75)
- '(c-offsets-alist nil)
- '(c-report-syntactic-errors t)
- '(c-syntactic-indentation t)
- '(c-tab-always-indent t)
  '(delete-selection-mode nil nil (delsel))
  '(ido-everywhere t)
  '(indent-tabs-mode t)
@@ -54,6 +39,5 @@
  '(font-lock-comment-face ((((class color) (min-colors 8) (background dark)) (:foreground "red" :underline t))))
  '(font-lock-warning-face ((((class color) (min-colors 8)) (:background "yellow" :foreground "red")))))
 
-(add-to-list 'auto-mode-alist '("\\.h$" . c++-mode))
 (message ".emacs loaded successfully.")
 (put 'upcase-region 'disabled nil)
