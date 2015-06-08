@@ -1,7 +1,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 export RPS1="$"
-
+export GOPATH=/Users/jkruck/go
+export PATH=$PATH:$GOPATH/bin
 alias wtf="git diff"
 alias ez="exec zsh"
 # Set name of the theme to load.
