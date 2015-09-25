@@ -3,4 +3,4 @@ use Cwd;
 use strict; 
 use warnings;
 my $curdir = cwd;
-system("find $curdir -exec grep -l $ARGV[0] {} \\\;");
+system("find $curdir -type f -exec grep -l $ARGV[0] {} \\\;");

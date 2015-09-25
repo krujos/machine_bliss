@@ -41,3 +41,5 @@
 
 (message ".emacs loaded successfully.")
 (put 'upcase-region 'disabled nil)
+
+(put 'downcase-region 'disabled nil)
