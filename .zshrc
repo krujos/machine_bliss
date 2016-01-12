@@ -2,7 +2,6 @@
 export ZSH=$HOME/.oh-my-zsh
 export RPS1="$"
 export GOPATH=/Users/jkruck/go
-export PATH=$PATH:$GOPATH/bin
 alias wtf="git diff"
 alias ez="exec zsh"
 # Set name of the theme to load.
@@ -55,7 +54,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin:$HOME/bin"
+export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/go/bin:$HOME/bin:$PATH"
+export PATH=$PATH:$GOPATH/bin
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
