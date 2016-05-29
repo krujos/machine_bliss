@@ -4,6 +4,7 @@ export RPS1="$"
 export GOPATH=/Users/jkruck/git/go
 alias wtf="git diff"
 alias ez="exec zsh"
+alias ginkgo="ginkgo -r"
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 # Set name of the theme to load.
